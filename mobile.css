@@ -1,0 +1,21 @@
+#navbar .container-left h1 a{
+    font-size: 2.5rem;
+}
+
+#navbar .container-left ul{
+    display: none;
+}
+
+#navbar .container-right input,
+#navbar .container-right button{
+    display: none;
+}
+
+#navbar .container-right span {
+  display: flex;
+  flex-direction: column;
+  width: 3.2rem;
+  height: 0.5rem;
+  background-color: white;
+  margin: 0.5rem 0rem;
+}

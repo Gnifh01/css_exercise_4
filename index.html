@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FROM DESKTOP -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FROM SMATPHONE (Portrait)-->
+    <link rel="stylesheet" media="(max-width: 767px)" href="mobile.css" />
+    <title>Lezione HTML</title>
+  </head>
+  <body>
+    <!--GENERIC NAVBAR -->
+    <header>
+      <nav id="navbar">
+        <div class="container-left">
+          <h1 class="logo"><a href="#">Navbar</a></h1>
+          <ul>
+            <li><a class="current" href="#">Home</a></li>
+            <li><a href="#">Link</a></li>
+            <li>
+              <select name="select" id="select">
+                <option value="" disabled selected>Dropdown</option>
+                <option value="">Frist option</option>
+              </select>
+            </li>
+            <li><a href="#">Disable</a></li>
+          </ul>
+        </div>
+        <div class="container-right">
+          <input type="search" id="site-search" placeholder="Search" />
+          <button>Search</button>
+          <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
